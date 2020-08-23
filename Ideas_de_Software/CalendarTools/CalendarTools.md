@@ -36,4 +36,4 @@ Claro que cuantos más elijas, menos espacio tienes en la espiral. Para que quep
 
 Si sólo eliges una opción entonces la espiral se convierte en una curva a lo muelle:
 
- ![Espiral](../../img/CalendarTools.png)
+ ![Espiral](../img/CalendarTools.png)
