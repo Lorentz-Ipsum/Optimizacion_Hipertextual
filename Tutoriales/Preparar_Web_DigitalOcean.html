@@ -265,33 +265,39 @@ pre[data-line] .line-highlight[data-end]:after {
 
 <ul>
 <li><a href="#c%C3%B3mo-preparar-una-p%C3%A1gina-web-usando-digitaloceancom-y-namecom">C&#xF3;mo preparar una p&#xE1;gina web usando DigitalOcean.com y Name.com</a></li>
-<li><a href="#licencias-de-software-de-la-ucm">Licencias de Software de la UCM</a>
+<li><a href="#0-licencias-de-software-de-la-ucm">0. Licencias de Software de la UCM</a>
 <ul>
 <li><a href="#github-student-developer-pack">Github Student Developer Pack</a></li>
 </ul>
 </li>
-<li><a href="#preparaci%C3%B3n">Preparaci&#xF3;n</a>
+<li><a href="#1-preparaci%C3%B3n">1. Preparaci&#xF3;n</a>
 <ul>
 <li><a href="#preparando-un-servidor-en-digitalocean">Preparando un servidor en DigitalOcean</a></li>
 <li><a href="#preparando-un-dominio-en-name">Preparando un dominio en Name</a></li>
+<li><a href="#asociando-el-nombre-del-dominio-con-el-servidor">Asociando el nombre del dominio con el servidor</a></li>
 </ul>
 </li>
-<li><a href="#nuestra-primera-p%C3%A1gina">Nuestra primera p&#xE1;gina</a>
+<li><a href="#2-nuestra-primera-p%C3%A1gina">2. Nuestra primera p&#xE1;gina</a>
 <ul>
 <li><a href="#html-y-markdown">HTML y Markdown</a>
 <ul>
 <li><a href="#preparando-una-p%C3%A1gina-de-inicio-con-stackedit">Preparando una p&#xE1;gina de inicio con Stackedit</a></li>
-<li><a href="#preparando-una-p%C3%A1gina-de-inicio-con-markdown-preview-enhanced">Preparando una p&#xE1;gina de inicio con Markdown Preview Enhanced</a></li>
-<li><a href="#a%C3%B1adiendo-im%C3%A1genes">A&#xF1;adiendo im&#xE1;genes</a></li>
+<li><a href="#preparando-una-p%C3%A1gina-de-inicio-con-atom-y-markdown-preview-enhanced">Preparando una p&#xE1;gina de inicio con Atom y Markdown Preview Enhanced</a></li>
+<li><a href="#cosas-avanzadas">Cosas avanzadas</a></li>
 </ul>
 </li>
+</ul>
+</li>
+<li><a href="#3-subiendo-los-contenidos">3. Subiendo los contenidos</a>
+<ul>
 <li><a href="#exportando-y-subiendo-a-la-web-con-un-programa-de-ftp">Exportando y subiendo a la web con un programa de FTP</a>
 <ul>
 <li><a href="#windows">Windows</a></li>
-<li><a href="#mac">Mac</a></li>
+<li><a href="#mac-y-linux">Mac (y Linux)</a></li>
 <li><a href="#linux">Linux</a></li>
 </ul>
 </li>
+<li><a href="#subiendo-los-archivos-desde-un-repositorio-de-git-o-github">Subiendo los archivos desde un repositorio de Git o GitHub</a></li>
 </ul>
 </li>
 <li><a href="#conclusiones">Conclusiones</a>
@@ -300,7 +306,7 @@ pre[data-line] .line-highlight[data-end]:after {
 </ul>
 </li>
 </ul>
-<h1 class="mume-header" id="licencias-de-software-de-la-ucm">Licencias de Software de la UCM</h1>
+<h1 class="mume-header" id="0-licencias-de-software-de-la-ucm">0. Licencias de Software de la UCM</h1>
 
 <p>A los estudiantes de la Complutense, aunque parezca que no, nos dan muchas ayudas de software, pero nadie nos explica cu&#xE1;les o c&#xF3;mo usarlas.<br>
 Lo primero de lo que me enter&#xE9; fue de las licencias de Microsoft y de MatLab que nos ofrec&#xED;an.<br>
@@ -309,16 +315,49 @@ Lo que m&#xE1;s &#xFA;til me ha sido es el Google Drive casi ilimitado en la cue
 <p>Para m&#xE1;s informaci&#xF3;n sobre todo esto, consulta la <a href="https://ssii.ucm.es/software-ucm">web oficial de la UCM</a> o preg&#xFA;ntame.</p>
 <h2 class="mume-header" id="github-student-developer-pack">Github Student Developer Pack</h2>
 
-<p>Lo &#xFA;ltimo de lo que he sido consciente, y relevante para este post, es el <a href="https://education.github.com/pack/offers">Github Student Developer Pack</a>.</p>
-<p>Si ya tienes GitHub en otro email,</p>
-<p>Al parecer</p>
-<h1 class="mume-header" id="preparaci%C3%B3n">Preparaci&#xF3;n</h1>
+<p>Lo &#xFA;ltimo de lo que he sido consciente, y relevante para este post, es el <a href="https://education.github.com/pack/offers">Github Student Developer Pack</a>.<br>
+B&#xE1;sicamente es un conjunto de licencias y promociones que nos ofrecen diversas empresas tecnol&#xF3;gicas. Vamos a usar la de <a href="http://DigitalOcean.com">DigitalOcean.com</a> y la de <a href="http://Name.com">Name.com</a> (o <a href="http://NameDomain.com">NameDomain.com</a>) para crear nuestra web.</p>
+<blockquote>
+<p>Lo primero que necesitas es una cuenta en <a href="http://GitHub.com">GitHub.com</a>.<br>
+Si quieres usar el mail de la UCM es sencillo. Tan s&#xF3;lo registrate.<br>
+Si vas a usar otra cuenta de correo o ya tienes GitHub, no hay problema. Puedes conseguir los beneficios de tu cuenta UCM.</p>
+</blockquote>
+<blockquote>
+<p>Con tu cuenta iniciada, ve a <a href="https://education.github.com/students">https://education.github.com/students</a> y sigue los pasos.</p>
+</blockquote>
+<blockquote>
+<p>Una vez registrado, en <a href="https://education.github.com/pack/offers">https://education.github.com/pack/offers</a> podr&#xE1;s ver todas las ofertas.<br>
+Aqu&#xED; es donde tendr&#xE1;s que buscar DigitalOcean y <a href="http://Name.com">Name.com</a> para acceder a sus webs y canjear tus licencias.</p>
+</blockquote>
+<hr>
+<h1 class="mume-header" id="1-preparaci%C3%B3n">1. Preparaci&#xF3;n</h1>
 
 <h2 class="mume-header" id="preparando-un-servidor-en-digitalocean">Preparando un servidor en DigitalOcean</h2>
 
+<p>S&#xE9; que es algo cutre, pero por ahora simplemente voy a pegar aqu&#xED; este video</p>
+<p><a href="http://www.youtube.com/watch?v=cMD6_MwgHDo"><img src="http://img.youtube.com/vi/cMD6_MwgHDo/0.jpg" alt></a></p>
+<p>en el que vienen todos los pasos:</p>
+<ol>
+<li>Desde la cuenta de DigitalOcean, crear un Droplet de Ubuntu(o si quiers, de Wordpress<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup>).</li>
+<li>Auntenticarlo y acceder desde una terminal usando SSH.</li>
+<li>Cambiar la contrase&#xF1;a.</li>
+<li>Instalar nginx<sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup> en nuestro servidor.</li>
+<li>Asociar un dominio (para este paso necesitaremos haberlo creado, en la siguiente secci&#xF3;n).</li>
+</ol>
+<p>Siguiendo los pasos tendr&#xE9;is vuestro servidor a punto.</p>
+<p>Si prefieres leer, <a href="https://www.digitalocean.com/docs/droplets/how-to/create/">en este post</a> est&#xE1; explicado lo mismo m&#xE1;s o menos hasta el punto 2.<br>
+Para instalar <strong>nginx</strong>, <a href="https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04">en este post lo explican</a>. Tambi&#xE9;n viene c&#xF3;mo crear un firewall para mejorar la seguridad, pero no es necesario.</p>
+<p>Si a&#xFA;n tienes ganas de m&#xE1;s, <a href="https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04">aqu&#xED; explican m&#xE1;s cosas que hacer con tu servidor</a> como crear otros usuarios con sus propias contrase&#xF1;as y permisos (aumenta la seguridad), o crear un firewall (otra vez).</p>
 <h2 class="mume-header" id="preparando-un-dominio-en-name">Preparando un dominio en Name</h2>
 
-<h1 class="mume-header" id="nuestra-primera-p%C3%A1gina">Nuestra primera p&#xE1;gina</h1>
+<p>S&#xF3;lo hay que seguir los pasos. Recuerdo que hab&#xED;a alguna dificultad en cierto punto pero nada imposible de resolver.<br>
+Extender&#xE9; este punto alg&#xFA;n d&#xED;a, con las dificultades que haya.</p>
+<h2 class="mume-header" id="asociando-el-nombre-del-dominio-con-el-servidor">Asociando el nombre del dominio con el servidor</h2>
+
+<p>El video de arriba explica todos los pasos.<br>
+<a href="https://www.digitalocean.com/community/tutorials/how-to-point-to-digitalocean-nameservers-from-common-domain-registrars">Este enlace me resolvi&#xF3; los problemas que me encontr&#xE9;.</a></p>
+<hr>
+<h1 class="mume-header" id="2-nuestra-primera-p%C3%A1gina">2. Nuestra primera p&#xE1;gina</h1>
 
 <h2 class="mume-header" id="html-y-markdown">HTML y Markdown</h2>
 
@@ -335,19 +374,31 @@ Nos centraremos en dos:</p>
 </ul>
 <h3 class="mume-header" id="preparando-una-p%C3%A1gina-de-inicio-con-stackedit">Preparando una p&#xE1;gina de inicio con Stackedit</h3>
 
-<h3 class="mume-header" id="preparando-una-p%C3%A1gina-de-inicio-con-markdown-preview-enhanced">Preparando una p&#xE1;gina de inicio con Markdown Preview Enhanced</h3>
+<h3 class="mume-header" id="preparando-una-p%C3%A1gina-de-inicio-con-atom-y-markdown-preview-enhanced">Preparando una p&#xE1;gina de inicio con Atom y Markdown Preview Enhanced</h3>
 
-<h3 class="mume-header" id="a%C3%B1adiendo-im%C3%A1genes">A&#xF1;adiendo im&#xE1;genes</h3>
+<h3 class="mume-header" id="cosas-avanzadas">Cosas avanzadas</h3>
+
+<p>Si quieres, por ejemplo, poder saber <a href="https://www.digitalocean.com/community/tutorials/how-to-build-a-modern-web-application-to-manage-customer-information-with-django-and-react-on-ubuntu-18-04">en qu&#xE9; enlaces de tu web hace m&#xE1;s clic la gente</a>, o crear una web m&#xE1;s avanzada, tendr&#xE1;s que aprender lo b&#xE1;sico de javascript.</p>
+<hr>
+<h1 class="mume-header" id="3-subiendo-los-contenidos">3. Subiendo los contenidos</h1>
 
 <h2 class="mume-header" id="exportando-y-subiendo-a-la-web-con-un-programa-de-ftp">Exportando y subiendo a la web con un programa de FTP</h2>
 
+<p>Si lo haces todo con la terminal, con SSH estar&#xE1;s a gusto.</p>
 <h3 class="mume-header" id="windows">Windows</h3>
 
-<h3 class="mume-header" id="mac">Mac</h3>
+<p>Usa <a href="https://cyberduck.io/">Cyberduck</a>. Por el amor de dios, <strong>NO USES FILEZILLA</strong>. Intentar&#xE1; instalarte el <a href="https://www.youtube.com/watch?v=DiN3rq6kqKI">maldito McAfee</a> que te destrozar&#xE1; el ordenador con AdWare.</p>
+<h3 class="mume-header" id="mac-y-linux">Mac (y Linux)</h3>
 
+<p><a href="https://rclone.org/">Rclone</a> tiene buena pinta, aunque aun no lo he probado y es para la terminal. Puedes sincronizar cosas con tu Drive o Dropbox.</p>
+<p>Oh, me acabo de dar cuenta. <a href="https://cyberduck.io/">Cyberduck</a> tambi&#xE9;n est&#xE1; para Mac.</p>
 <h3 class="mume-header" id="linux">Linux</h3>
 
 <p>Os buscais la vida, ya sabreis como va la vaina. Si conoces un buen software de FTP, dimelo y lo a&#xF1;adir&#xE9; aqu&#xED;.</p>
+<h2 class="mume-header" id="subiendo-los-archivos-desde-un-repositorio-de-git-o-github">Subiendo los archivos desde un repositorio de Git o GitHub</h2>
+
+<p>Esta es la opci&#xF3;n m&#xE1;s deseable. A&#xFA;n no lo he probado pero est&#xE1; todo en este video:</p>
+<p><a href="http://www.youtube.com/watch?v=V5e12MQRiU8"><img src="http://img.youtube.com/vi/V5e12MQRiU8/0.jpg" alt></a></p>
 <h1 class="mume-header" id="conclusiones">Conclusiones</h1>
 
 <p>Se quedan muchas cosas en el tintero, aunque con esto ya podr&#xED;as hacerte un blog sencillito o empezar a cacharrear con HTML. Recomiendo los <a href="https://www.ucm.es/estudios/grado-cficompetencias">Cursos de Formaci&#xF3;n Inform&#xE1;tica</a> de la propia UCM.</p>
@@ -381,6 +432,15 @@ Para que no salga el aviso en la barra de direcciones.</p>
 <p><input type="checkbox" class="task-list-item-checkbox"> Este tutorial es para hacer una web, pero el servidor que hemos montado en DigitalOcean puede usarse para muchas otras cosas. Me gustar&#xED;a comentar c&#xF3;mo montar tu propio servidor de Git para proyectos que no quieras subir a GitHub o a GitLab.</p>
 </li>
 </ul>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>Si s&#xF3;lo quieres bloguear, puedes crear un server con Wordpress directamente, pero b&#xFA;scate la vida. Quiz&#xE1; algo de este post te sea &#xFA;til. Y si no seguramente haga un post sobre eso alg&#xFA;n d&#xED;a. <a href="#fnref1" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p>Nginx es el programa que &quot;servir&#xE1;&quot; las p&#xE1;ginas web que tengamos en nuestro servidor cuando alguien acceda a trav&#xE9;s de un navegador. <a href="#fnref2" class="footnote-backref">&#x21A9;&#xFE0E;</a></p>
+</li>
+</ol>
+</section>
 </div>
       </div>
       

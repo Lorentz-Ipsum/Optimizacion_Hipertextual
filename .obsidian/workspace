@@ -4,29 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "d9dffe3f6828b685",
+        "id": "778a0702a8e5345e",
         "type": "leaf",
         "active": true,
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Ideas_de_Software/CalendarTools/CalendarTools.md",
-            "mode": "source"
-          }
-        },
-        "group": "fff7eb038fd6c0cb"
-      },
-      {
-        "id": "778a0702a8e5345e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Ideas_de_Software/CalendarTools/CalendarTools.md",
-            "mode": "preview"
-          }
-        },
-        "group": "fff7eb038fd6c0cb"
+          "type": "graph",
+          "state": {}
+        }
       }
     ],
     "direction": "vertical"
@@ -52,7 +36,9 @@
             "type": "leaf",
             "state": {
               "type": "search",
-              "state": {}
+              "state": {
+                "query": ""
+              }
             }
           }
         ]
@@ -85,10 +71,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Ideas_de_Software/CalendarTools/CalendarTools.md",
-    "Untitled.md",
-    "Tools_for_the_Digital_Hunter-Gatherer.md",
     "README.md",
-    "Ideas_de_programas/Historial_estilo_arbol.md"
+    "Tutoriales/Articulos_Pendientes.md",
+    "Trucos_basicos.md",
+    "Tools_for_the_Digital_Hunter-Gatherer.md",
+    "Info_Markdown.md",
+    "Untitled recording 1.webm",
+    "Untitled recording.webm",
+    "Idea HyperBrackets.webm",
+    "Untitled recording 1 1.webm",
+    "Untitled recording 2.webm"
   ]
 }
